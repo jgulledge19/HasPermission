@@ -30,7 +30,7 @@ if ( !empty($or)) {
         }
     }
 } else {
-    $modx->hasPermission($permission);
+    $hasPermission = $modx->hasPermission($permission);
 }
 
 if ($hasPermission) {
